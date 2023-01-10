@@ -19,15 +19,17 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#191919",
-        accent: "#d8c278",
-        grey: {
-          DEFAULT: "#919297",
-          1: "#707070",
-          2: "#E7E9EB",
-          3: "#F5F5F5",
+        primary: {
+          DEFAULT: "hsl(136, 65%, 51%)",
+          1: "hsl(192, 70%, 51%)",
+          2: "hsl(233, 26%, 24%)",
         },
-        white: "#f7f7f6",
+        grey: {
+          DEFAULT: "hsl(0, 0%, 98%)",
+          1: "hsl(220, 16%, 96%)",
+          2: "hsl(233, 8%, 62%)",
+        },
+        white: "hsl(0, 0%, 100%)",
         secondary: "#4d4d4d",
       },
       backgroundImage: {

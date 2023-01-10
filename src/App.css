@@ -29,13 +29,13 @@
     @apply py-[35px] lg:py-[50px];
   }
   .title {
-    @apply capitalize text-2xl lg:text-[40px] text-accent leading-tight font-semibold mb-4;
+    @apply capitalize text-2xl lg:text-[40px] text-primary leading-tight font-semibold mb-4;
   }
   .subtitle {
     @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
   }
   button{
-    @apply hover:text-white text-accent hover:bg-accent border border-accent px-6 rounded-md py-2;
+    @apply hover:text-white text-white bg-gradient-to-r from-primary to-primary-1 px-8 rounded-full py-3;
   }
   .pad{
     @apply px-[1.5rem] lg:px-[7rem]
