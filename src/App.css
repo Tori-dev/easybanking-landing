@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 :root {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-size: 1rem;
   /* line-height: 24px; */
   font-weight: 400;
@@ -23,10 +23,10 @@
 
 @layer base {
   body {
-    @apply text-white;
+    @apply text-primary-2 font-sans;
   }
   section {
-    @apply py-[35px] lg:py-[50px];
+    @apply py-[35px] lg:py-[50px] px-[1.5rem] lg:px-[3rem];
   }
   .title {
     @apply capitalize text-2xl lg:text-[40px] text-primary leading-tight font-semibold mb-4;
@@ -38,6 +38,6 @@
     @apply hover:text-white text-white bg-gradient-to-r from-primary to-primary-1 px-8 rounded-full py-3;
   }
   .pad{
-    @apply px-[1.5rem] lg:px-[7rem]
+    @apply px-[1.5rem] lg:px-[3rem]
   }
 }
