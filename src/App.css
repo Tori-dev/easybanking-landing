@@ -35,7 +35,7 @@
     @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
   }
   button{
-    @apply hover:text-white text-white bg-gradient-to-r from-primary to-primary-1 px-8 rounded-full py-3;
+    @apply hover:text-white text-white bg-gradient-to-r from-primary to-primary-1 px-8 rounded-full py-3 font-semibold;
   }
   .pad{
     @apply px-[1.5rem] lg:px-[3rem]

@@ -1,3 +1,28 @@
+//  NAVIGATION
+export const navigation = [
+  {
+    name: "home",
+    href: "/",
+  },
+  {
+    name: "about",
+    href: "/",
+  },
+  {
+    name: "contact",
+    href: "/",
+  },
+  {
+    name: "blog",
+    href: "/",
+  },
+  {
+    name: "career",
+    href: "/",
+  },
+];
+
+//    WHY SECTION
 import apiicon from "./images/icon-api.svg";
 import budgetingicon from "./images/icon-budgeting.svg";
 import onboardingicon from "./images/icon-onboarding.svg";

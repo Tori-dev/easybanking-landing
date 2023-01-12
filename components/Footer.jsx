@@ -7,7 +7,7 @@ const Footer = () => {
       <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com" class="flex items-center">
+            <a href="https://tori-codes.vercel.app" class="flex items-center">
               <img src={Logo} class="mr-3 h-8" alt="Easybank Logo" />
             </a>
           </div>
